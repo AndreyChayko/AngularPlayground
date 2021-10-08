@@ -1,0 +1,24 @@
+<mat-card class="navigation-card">
+  <mat-card-header>
+    <div mat-card-avatar class="navigation-card__avatar"></div>
+    <mat-card-title>{{ allTextValues?.title }}</mat-card-title>
+    <mat-card-subtitle>{{ allTextValues?.subtitle }}</mat-card-subtitle>
+  </mat-card-header>
+  <img
+    mat-card-image
+    [src]="'/assets/' + allTextValues?.image"
+    alt="main image"
+  />
+  <mat-card-content>
+    <p></p>
+  </mat-card-content>
+  <mat-card-actions>
+    <button
+      mat-button
+      class="navigation-card__action"
+      (click)="onDetailsClick(allTextValues?.route)"
+    >
+      Details
+    </button>
+  </mat-card-actions>
+</mat-card>

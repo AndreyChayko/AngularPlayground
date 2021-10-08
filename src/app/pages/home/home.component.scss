@@ -1,0 +1,34 @@
+.home {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  &__header {
+    width: 100%;
+    text-align: center;
+    background-color: #7b1fa2;
+    color: #fff;
+    padding: 5rem;
+
+    &-h1 {
+      font-size: 4rem;
+    }
+
+    &-logos {
+      display: flex;
+      flex-direction: row;
+
+      &__logo {
+        max-height: 100px;
+      }
+    }
+  }
+
+  &__navigation {
+    padding: 5rem;
+
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+  }
+}
