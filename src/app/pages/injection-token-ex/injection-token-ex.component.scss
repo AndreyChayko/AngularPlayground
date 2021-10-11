@@ -1,0 +1,20 @@
+.content {
+  text-align: center;
+  margin-top: 5rem;
+  &__header {
+    font-size: 2rem;
+  }
+
+  &__sub-header {
+    font-size: 0.9rem;
+    font-style: italic;
+  }
+
+  &__main {
+    display: flex;
+    padding: 0.9rem;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+  }
+}

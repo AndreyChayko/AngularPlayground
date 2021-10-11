@@ -1,8 +1,9 @@
 .navigation-card {
-  max-width: 25rem;
-  //&:hover {
-  //  transform: scale(1.05, 1.05);
-  //}
+  width: 25rem;
+
+  &__image {
+    height: 18.75rem;
+  }
 
   &__avatar {
     background-image: url("/assets/angular-icon.png");

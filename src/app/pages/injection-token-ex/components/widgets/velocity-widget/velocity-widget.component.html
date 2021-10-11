@@ -1,0 +1,15 @@
+<mat-spinner
+  class="loader"
+  color="accent"
+  diameter="20"
+  *ngIf="isRefreshing$ | async"
+></mat-spinner>
+
+<div [class.content-loading]="isRefreshing$ | async">
+  <h5>Last Sprint</h5>
+  <section>
+    <mat-icon class="widget-icon">assessment</mat-icon>
+    <div class="value">Achieved: <strong>25</strong></div>
+    <div class="value">Planned: <strong>30</strong></div>
+  </section>
+</div>

@@ -15,6 +15,10 @@ export class HomeComponent implements OnInit {
     (item) => item.key === ItemConfigKey.INJECTION_TOKEN
   );
 
+  valueAccessorConfig = CONFIGS.find(
+    (item) => item.key === ItemConfigKey.CONTROL_VALUE_ACCESSOR
+  );
+
   constructor() {}
 
   ngOnInit(): void {}

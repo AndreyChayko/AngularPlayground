@@ -1,0 +1,15 @@
+:host {
+  display: block;
+  border: #f0ebeb solid 1px;
+  border-radius: 0.3rem;
+  padding: 1rem;
+  background-color: #fafafa;
+  width: 28.5rem;
+  margin-left: 1.1rem;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}

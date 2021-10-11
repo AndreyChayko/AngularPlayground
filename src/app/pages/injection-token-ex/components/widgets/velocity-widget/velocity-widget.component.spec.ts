@@ -1,19 +1,19 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { NavigationItemComponent } from './navigation-item.component';
+import { VelocityWidgetComponent } from './velocity-widget.component';
 
-describe('NavigationItemComponent', () => {
-  let component: NavigationItemComponent;
-  let fixture: ComponentFixture<NavigationItemComponent>;
+describe('VelocityWidgetComponent', () => {
+  let component: VelocityWidgetComponent;
+  let fixture: ComponentFixture<VelocityWidgetComponent>;
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      declarations: [NavigationItemComponent],
+      declarations: [VelocityWidgetComponent],
     }).compileComponents();
   });
 
   beforeEach(() => {
-    fixture = TestBed.createComponent(NavigationItemComponent);
+    fixture = TestBed.createComponent(VelocityWidgetComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });

@@ -14,6 +14,13 @@ const routes: Routes = [
         (m) => m.InjectionTokenExModule
       ),
   },
+  {
+    path: 'value-accessor',
+    loadChildren: () =>
+      import(
+        './pages/control-value-accessor-ex/control-value-accessor-ex.module'
+      ).then((m) => m.ControlValueAccessorExModule),
+  },
   { path: '**', redirectTo: 'home', pathMatch: 'full' },
 ];
 
